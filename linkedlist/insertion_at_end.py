@@ -1,6 +1,6 @@
 # creation of linkedlist and adding data to the linkedlist
 # creating class Node and linkedlist
-from Node_Class import Node
+from Node.Node_Class import Node
 class linkedlist_insert_in_end:
     def __init__(self):
         self.head = None;
