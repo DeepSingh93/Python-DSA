@@ -1,11 +1,7 @@
 # creation of linkedlist and adding data to the linkedlist
 # creating class Node and linkedlist
-class Node:
-    def __init__(self, data):
-        self.data = data;
-        self.next = None;
-        
-class linkedlist:
+from Node_Class import Node
+class linkedlist_insert_in_end:
     def __init__(self):
         self.head = None;
         self.tail = None;
@@ -24,9 +20,3 @@ class linkedlist:
             print(getHead.data);
             getHead = getHead.next;
 
-list1 = linkedlist();
-list1.add('sample1');
-list1.add('sample2');
-list1.add('sample3');
-list1.add('sample4');
-list1.showdata();
