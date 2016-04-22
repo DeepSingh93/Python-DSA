@@ -46,11 +46,15 @@ class insert_after_an_element_class():
         self.head = getHead
     
     def printLinkedList(self):
+        print("#---- Start of printing of linkedlist ----")
         print("#Getting head position")
         getHead = self.head;
-        print("#---- Start of printing of linkedlist ----")
-        while(getHead != None):
-            print(getHead.data)
-            getHead = getHead.next
+        if(self.head == None):
+            print("#List is empty")
+        else:
+            while(getHead != None):
+                print(getHead.data)
+                getHead = getHead.next
         print("#---- End of printing of linkedlist ----")
+        
         

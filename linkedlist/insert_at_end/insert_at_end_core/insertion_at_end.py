@@ -26,11 +26,14 @@ class insert_at_end:
         print("#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : "+data+" -----")
     
     def printLinkedList(self):
-        print("#Get head position and save it in local variable");
+        print("#---- Start of printing of linkedlist ----")
+        print("#Getting head position")
         getHead = self.head;
-        print("#--- START OF PRINTING OF LINKEDLIST ---")
-        while(getHead != None):
-            print(getHead.data)
-            getHead = getHead.next;
-        print("#--- END OF PRINTING OF LINKEDLIST ---")
+        if(self.head == None):
+            print("#List is empty")
+        else:
+            while(getHead != None):
+                print(getHead.data)
+                getHead = getHead.next
+        print("#---- End of printing of linkedlist ----")
         
