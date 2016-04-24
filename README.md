@@ -13,6 +13,9 @@ Currently practing following
     - delete an element from the end
     - delete an elemnet from middle
 
+- Doubly linkedlist using python
+    - insert an element at the end
+
 # Running these files
 How to run these files
 
