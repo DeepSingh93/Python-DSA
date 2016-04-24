@@ -5,16 +5,17 @@ Practice code for python
 Currently practing following
 
 - Linkedlist using python
-    - insert an element at the end 
-    - insert an element in the begining
-    - insert an element before an element
-    - insert an element after an element
-    - delete an element in the begining
-    - delete an element from the end
-    - delete an elemnet from middle
+    - Insert an element at the end 
+    - Insert an element in the begining
+    - Insert an element before an element
+    - Insert an element after an element
+    - Delete an element in the begining
+    - Delete an element from the end
+    - Delete an elemnet from middle
 
 - Doubly linkedlist using python
-    - insert an element at the end
+    - Insert an element at the end
+    - Printing reverse linkedlist
 
 # Running these files
 How to run these files
