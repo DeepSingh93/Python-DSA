@@ -1,4 +1,4 @@
-# python-practice
+# Data Structures using python
 
 Practice code for python
 
