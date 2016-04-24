@@ -24,34 +24,49 @@ class delete_element_middle_class:
         print("#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : "+data+" -----")
     
     def remove(self, element):
+        print("~~~~~~~ BEGIN OF REMOVING AN ELEMENT FROM LINKEDLIST ~~~~~~~")
         print("#Initially setting elementFound as False")
         elementFound = False
         print("#Setting temp head value")
         tempHead = self.head
-        while(self.head.next != None):
-            if self.head.next.data == element and self.head.next.next == None:
-                elementFound = True
-                print("#Reached at the last element, just set the tail as current self.head")
-                self.tail = self.head
-                print("#--- ELEMENT REMOVED ----")
-            elif self.head.data == element and self.head.next != None:
-                elementFound = True
-                print("#Element Found at the starting of the list")
-                self.head = self.head.next
-                print("#Since element is removed from begining, so setting temphead to updated self.head")
-                tempHead = self.head
-                print("#--- ELEMENT REMOVED ----")
-            elif self.head.data == element and self.head.next == None:
-                elementFound = True
-                print("#Element found at the starting and no more elements in the list");
+        print("#Checking whether it's the first element or not")
+        if self.head.data == element:
+            elementFound = True
+            print("#Yes it's the first element")
+            print("#Now checking whether there exists an element after first element")
+            if self.head.next == None:
+                print("#No element after first element, so removing this element, by setting self.head == None")
                 self.head = None
-                print("#--- ELEMENT REMOVED ----")
-            elif self.head.next.data == element and self.head.next.next != None:
-                elementFound = True
-                print("#Reached at the middle of the list, element found in the middle of the list")
-                self.head.next = self.head.next.next;
-                print("#--- ELEMENT REMOVED ----")
-            self.head = self.head.next
+                print("#---ELEMENT REMOVED---")
+                print("#Updating the temp value of self.head")
+                tempHead = self.head
+            else:
+                print("#Yes it contains more elements after first element")
+                print("#Removing the first element from the list")
+                self.head = self.head.next
+                print("#Updating the temp value of self.head")
+                tempHead = self.head
+                print("#---ELEMENT REMOVED---")
+        elif self.tail.data == element:
+            print("#It's the last element !")
+            while(self.head.next != None):
+                if self.head.next.data == element:
+                    elementFound = True
+                    print("#Element found at the last position")
+                    self.tail = self.head
+                    self.head.next = None
+                else:
+                    self.head = self.head.next
+        else:
+            print("#No it's not the first element neither the last element, searching for element ! Traversing the linkedlist")
+            while(self.head != None):
+                if self.head.data == element:
+                    elementFound = True
+                    print("#This is not the last element ! Updating the element position")
+                    self.head.data = self.head.next.data
+                    self.head.next = self.head.next.next
+                    print("#---ELEMENT REMOVED---")
+                self.head = self.head.next
         if elementFound != True:
             print("#Element Not found !")
         
