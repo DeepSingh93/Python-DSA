@@ -102,13 +102,26 @@ import sys;
 # testLinkedList.remove("Sample Data 1")
 # testLinkedList.printLinkedList()
 
+# # Program in python to add element in doubly linkedlist
+# sys.path.append('/home/ubuntu/workspace/doublylinkedlist/insert_at_end/insert_at_end_core');
+# from insertion_at_end import insert_at_end_doublylinkedlist_class
+# testLinkedList = insert_at_end_doublylinkedlist_class()
+# testLinkedList.add("1")
+# testLinkedList.add("2")
+# testLinkedList.add("3")
+# testLinkedList.add("4")
+# testLinkedList.add("5")
+# testLinkedList.printBothSides()
+
 # Program in python to add element in doubly linkedlist
-sys.path.append('/home/ubuntu/workspace/doublylinkedlist/insert_at_end/insert_at_end_core');
-from insertion_at_end import insert_at_end_doublylinkedlist_class
-testLinkedList = insert_at_end_doublylinkedlist_class()
+sys.path.append('/home/ubuntu/workspace/doublylinkedlist/reverse_traversal/reverse_traversal_core');
+from reverse_traversal import reverse_traversal_doublylinkedlist_class
+testLinkedList = reverse_traversal_doublylinkedlist_class()
 testLinkedList.add("1")
 testLinkedList.add("2")
 testLinkedList.add("3")
 testLinkedList.add("4")
 testLinkedList.add("5")
-testLinkedList.printBothSides()
+testLinkedList.printReverseLinkedList()
+testLinkedList.add("6")
+testLinkedList.printReverseLinkedList()
