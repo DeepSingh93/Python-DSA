@@ -30,6 +30,11 @@ How to run these files
 - Configure your import directory
 - Run the file "run_this_file.py"
 
+# Hackerrank practice Questions 
+
+- Print the Elements of a Linked List : Ref : hackerrank_linkedlist_practice/print-the-elements-of-a-linked-list.py
+
+
 # Practice question output
 
 ```sh
