@@ -17,6 +17,7 @@ Currently practing following
     - Insert an element at the end
     - Printing reverse linkedlist
     - Reversing the linkedlist using doubly linkedlist
+    - Insert at the begining of the linkedlist
 
 
 # Running these files
@@ -597,6 +598,62 @@ Current node ==> 5 ,Previous Value : 4 ,Next value : Null
 #Now update the tail element with previous and next
 #ELEMENT ADDED SUCCESSFULLY
 #Updating the head of the linkedlist
+Printing both prev and next values for the current node
+#--- Begin printing of elements of previous and next values ---
+Current node ==> 5 ,Previous Value : Null ,Next value : 4
+Current node ==> 4 ,Previous Value : 5 ,Next value : 3
+Current node ==> 3 ,Previous Value : 4 ,Next value : 2
+Current node ==> 2 ,Previous Value : 3 ,Next value : 1
+Current node ==> 1 ,Previous Value : 2 ,Next value : Null
+#--- END printing of elements of previous and next values ---
+#--- Begin insertion at begining
+#Creating node object
+#node created
+#Check if first element or not
+#It's the first element
+#Element Added
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Begin insertion at begining
+#Creating node object
+#node created
+#Check if first element or not
+#It's not the first element, adding the element
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+2
+1
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Begin insertion at begining
+#Creating node object
+#node created
+#Check if first element or not
+#It's not the first element, adding the element
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+3
+2
+1
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Begin insertion at begining
+#Creating node object
+#node created
+#Check if first element or not
+#It's not the first element, adding the element
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+4
+3
+2
+1
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Begin insertion at begining
+#Creating node object
+#node created
+#Check if first element or not
+#It's not the first element, adding the element
 Printing both prev and next values for the current node
 #--- Begin printing of elements of previous and next values ---
 Current node ==> 5 ,Previous Value : Null ,Next value : 4
