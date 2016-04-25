@@ -22,6 +22,10 @@ Currently practing following
 - Practice Questions
     - Given two Linked Lists, create union lists that contain union of the elements present in the given lists. Order of elments in output lists doesn’t matter.
 
+- Hackerrank Questions [LinkedList, Ref Link : https://www.hackerrank.com/domains/data-structures/linked-lists/]
+    - Print the Elements of a Linked List : Ref : hackerrank_linkedlist_practice/print-the-elements-of-a-linked-list.py
+    - Insert a node at the head of a linked list : Ref : hackerrank_linkedlist_practice/insert-a-node-at-the-head-of-a-linked-list.py
+    - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
 
 # Running these files
 How to run these files
@@ -29,13 +33,6 @@ How to run these files
 - Configure your directory where all the files are saved
 - Configure your import directory
 - Run the file "run_this_file.py"
-
-# Hackerrank practice Questions 
-
-- Print the Elements of a Linked List : Ref : hackerrank_linkedlist_practice/print-the-elements-of-a-linked-list.py
-- Insert a node at the head of a linked list : Ref : hackerrank_linkedlist_practice/insert-a-node-at-the-head-of-a-linked-list.py
-- Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
-
 
 # Practice question output
 
