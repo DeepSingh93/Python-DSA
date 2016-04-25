@@ -19,6 +19,9 @@ Currently practing following
     - Reversing the linkedlist using doubly linkedlist
     - Insert at the begining of the linkedlist
 
+- Practice Questions
+    - Given two Linked Lists, create union lists that contain union of the elements present in the given lists. Order of elments in output lists doesn’t matter.
+
 
 # Running these files
 How to run these files
