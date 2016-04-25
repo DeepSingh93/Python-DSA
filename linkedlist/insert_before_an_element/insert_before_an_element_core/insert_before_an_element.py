@@ -3,7 +3,7 @@ import sys;
 # IMPORTANT : Change your import directory else this will not work
 sys.path.append('/home/ubuntu/workspace/linkedlist/Node');
 
-from Node.Node_Core import Node
+from Node_Core import Node
 
 class insert_before_an_element_class:
     def __init__(self):

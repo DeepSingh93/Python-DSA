@@ -4,7 +4,7 @@ import sys;
 sys.path.append('/home/ubuntu/workspace/linkedlist/Node');
 
 #import node class
-from Node.Node_Core import Node
+from Node_Core import Node
 
 class delete_element_end_class:
     def __init__(self):

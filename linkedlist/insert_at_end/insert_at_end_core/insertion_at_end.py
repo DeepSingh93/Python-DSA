@@ -4,7 +4,7 @@ import sys;
 sys.path.append('/home/ubuntu/workspace/linkedlist/Node');
 
 #import node class
-from Node.Node_Core import Node
+from Node_Core import Node
 
 class insert_at_end:
     def __init__(self):
