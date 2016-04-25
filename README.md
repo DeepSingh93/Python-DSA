@@ -26,6 +26,7 @@ Currently practing following
     - Print the Elements of a Linked List : Ref : hackerrank_linkedlist_practice/print-the-elements-of-a-linked-list.py
     - Insert a node at the head of a linked list : Ref : hackerrank_linkedlist_practice/insert-a-node-at-the-head-of-a-linked-list.py
     - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
+    - Print in reverse : Ref : hackerrank_linkedlist_practice/print_in_reverse.py
 
 # Running these files
 How to run these files
