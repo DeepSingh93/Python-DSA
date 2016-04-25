@@ -16,6 +16,7 @@ Currently practing following
 - Doubly linkedlist using python
     - Insert an element at the end
     - Printing reverse linkedlist
+    - Reversing the linkedlist using doubly linkedlist
 
 # Running these files
 How to run these files
