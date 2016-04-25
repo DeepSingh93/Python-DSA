@@ -38,6 +38,7 @@ class insert_at_end_doublylinkedlist_class:
             print(self.head.data)
             self.head = self.head.next
         print("#--- END OF PRINTING OF ELEMENTS ---")
+        self.head = tempHead
         
     def printBothSides(self):
         print("Printing both prev and next values for the current node")
