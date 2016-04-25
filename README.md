@@ -18,9 +18,591 @@ Currently practing following
     - Printing reverse linkedlist
     - Reversing the linkedlist using doubly linkedlist
 
+
 # Running these files
 How to run these files
 
 - Configure your directory where all the files are saved
 - Configure your import directory
 - Run the file "run_this_file.py"
+
+# Current dump output
+
+```sh
+#created empty linked list
+creating node object
+#node created
+#Checking head
+#Head is none, adding first element
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : sample element 1 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : sample element 2 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : sample element 3 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : sample element 4 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : sample element 5 -----
+#---- Start of printing of linkedlist ----
+#Getting head position
+sample element 1
+sample element 2
+sample element 3
+sample element 4
+sample element 5
+#---- End of printing of linkedlist ----
+#Creating a linked list with empty head and tail
+#create node object
+#node created
+#check head and tail
+#Head is none, adding first element
+#--- Element added : Sample Data 1
+#create node object
+#node created
+#check head and tail
+#Head is not null, appending an element
+#--- Element added : Sample Data 2
+#create node object
+#node created
+#check head and tail
+#Head is not null, appending an element
+#--- Element added : Sample Data 3
+#create node object
+#node created
+#check head and tail
+#Head is not null, appending an element
+#--- Element added : Sample Data 4
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#Finding element
+#Element FOUND !
+#Creating node object
+#node created
+#Adding Element
+#--- ELEMENT ADDED ---
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+added data
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is null, adding first element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#Initially keeping elementFound = False
+Save the head position
+#Getting current element position
+#Getting next head position
+#Creating node object
+#node created
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+added data
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#This program will insert nodes in the begining.
+#--BEGIN INSERTING DATA AT BEGINING--
+#Creating node object
+#node created
+#Checking head position
+#Head is null, so adding first element
+#--BEGIN INSERTING DATA AT BEGINING--
+#Creating node object
+#node created
+#Checking head position
+#Head is not null, adding the nodeobject in the starting
+#--BEGIN INSERTING DATA AT BEGINING--
+#Creating node object
+#node created
+#Checking head position
+#Head is not null, adding the nodeobject in the starting
+#--BEGIN INSERTING DATA AT BEGINING--
+#Creating node object
+#node created
+#Checking head position
+#Head is not null, adding the nodeobject in the starting
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 4
+Sample Data 3
+Sample Data 2
+Sample Data 1
+#---- End of printing of linkedlist ----
+#Adding data
+#Checking whether head is null or not
+Creating node object
+#node created
+Head is null, so adding first element
+#Adding data
+#Checking whether head is null or not
+Creating node object
+#node created
+Head is not null, appending element
+#Adding data
+#Checking whether head is null or not
+Creating node object
+#node created
+Head is not null, appending element
+#Adding data
+#Checking whether head is null or not
+Creating node object
+#node created
+Head is not null, appending element
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#--REMOVING LAST ELEMENT--
+#Removing the last element from the list
+#Saving the head element in local variable
+#Deleting last element
+#Node deleted
+#Restoring head position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+#---- End of printing of linkedlist ----
+#--REMOVING LAST ELEMENT--
+#Removing the last element from the list
+#Saving the head element in local variable
+#Deleting last element
+#Node deleted
+#Restoring head position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+#---- End of printing of linkedlist ----
+#--REMOVING LAST ELEMENT--
+#Removing the last element from the list
+#Saving the head element in local variable
+#Deleting last element
+#Node deleted
+#Restoring head position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+#---- End of printing of linkedlist ----
+#--REMOVING LAST ELEMENT--
+#Only one element in the list, removing that element
+#---- Start of printing of linkedlist ----
+#Getting head position
+#List is empty
+#---- End of printing of linkedlist ----
+creating node object
+#node created
+#Checking head
+#Head is none, adding first element
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 1 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 2 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 3 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 4 -----
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#DELETION OF ELEMENT FROM BEGINING
+#Check whether the head is empty or not
+#List is not empty, deleting element
+#Setting head position to the next element in the list [from begining]
+----- SUCCESSFULLY DELETED ELEMENT-----
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#DELETION OF ELEMENT FROM BEGINING
+#Check whether the head is empty or not
+#List is not empty, deleting element
+#Setting head position to the next element in the list [from begining]
+----- SUCCESSFULLY DELETED ELEMENT-----
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+#DELETION OF ELEMENT FROM BEGINING
+#Check whether the head is empty or not
+#List is not empty, deleting element
+#Setting head position to the next element in the list [from begining]
+----- SUCCESSFULLY DELETED ELEMENT-----
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 4
+#---- End of printing of linkedlist ----
+creating node object
+#node created
+#Checking head
+#Head is none, adding first element
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 1 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 2 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 3 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 4 -----
+creating node object
+#node created
+#Checking head
+#Head is not none, adding an element to the end of list
+#----- ELEMENT SUCCESSFULLY ADDED ELEMENT : Sample Data 5 -----
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+Sample Data 5
+#---- End of printing of linkedlist ----
+~~~~~~~ BEGIN OF REMOVING AN ELEMENT FROM LINKEDLIST ~~~~~~~
+#Initially setting elementFound as False
+#Setting temp head value
+#Checking whether it's the first element or not
+#It's the last element !
+#Element found at the last position
+#Resetting the head element back to original position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+~~~~~~~ BEGIN OF REMOVING AN ELEMENT FROM LINKEDLIST ~~~~~~~
+#Initially setting elementFound as False
+#Setting temp head value
+#Checking whether it's the first element or not
+#No it's not the first element neither the last element, searching for element ! Traversing the linkedlist
+#This is not the last element ! Updating the element position
+#---ELEMENT REMOVED---
+#Resetting the head element back to original position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 3
+Sample Data 4
+#---- End of printing of linkedlist ----
+~~~~~~~ BEGIN OF REMOVING AN ELEMENT FROM LINKEDLIST ~~~~~~~
+#Initially setting elementFound as False
+#Setting temp head value
+#Checking whether it's the first element or not
+#No it's not the first element neither the last element, searching for element ! Traversing the linkedlist
+#This is not the last element ! Updating the element position
+#---ELEMENT REMOVED---
+#Resetting the head element back to original position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 4
+#---- End of printing of linkedlist ----
+~~~~~~~ BEGIN OF REMOVING AN ELEMENT FROM LINKEDLIST ~~~~~~~
+#Initially setting elementFound as False
+#Setting temp head value
+#Checking whether it's the first element or not
+#Yes it's the first element
+#Now checking whether there exists an element after first element
+#Yes it contains more elements after first element
+#Removing the first element from the list
+#Updating the temp value of self.head
+#---ELEMENT REMOVED---
+#Resetting the head element back to original position
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 4
+#---- End of printing of linkedlist ----
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#It's the first element
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+Printing both prev and next values for the current node
+#--- Begin printing of elements of previous and next values ---
+Current node ==> 1 ,Previous Value : Null ,Next value : 2
+Current node ==> 2 ,Previous Value : 1 ,Next value : 3
+Current node ==> 3 ,Previous Value : 2 ,Next value : 4
+Current node ==> 4 ,Previous Value : 3 ,Next value : 5
+Current node ==> 5 ,Previous Value : 4 ,Next value : Null
+#--- END printing of elements of previous and next values ---
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#It's the first element
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Setting temp value to self.tail
+#-- Start of printing of reverse linkedlist
+5
+4
+3
+2
+1
+#-- End of printing of linkedlsit
+#Setting tail value back
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Setting temp value to self.tail
+#-- Start of printing of reverse linkedlist
+6
+5
+4
+3
+2
+1
+#-- End of printing of linkedlsit
+#Setting tail value back
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#It's the first element
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Get self.head and self.tail in local variable
+#Using another linked list to save the values
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#It's the first element
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Updating the head of the linkedlist
+Printing both prev and next values for the current node
+#--- Begin printing of elements of previous and next values ---
+Current node ==> 5 ,Previous Value : Null ,Next value : 4
+Current node ==> 4 ,Previous Value : 5 ,Next value : 3
+Current node ==> 3 ,Previous Value : 4 ,Next value : 2
+Current node ==> 2 ,Previous Value : 3 ,Next value : 1
+Current node ==> 1 ,Previous Value : 2 ,Next value : Null
+#--- END printing of elements of previous and next values ---
+```
