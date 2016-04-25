@@ -27,7 +27,41 @@ How to run these files
 - Configure your import directory
 - Run the file "run_this_file.py"
 
-# Current dump output
+# Practice question output
+
+```sh
+# Given two Linked Lists, create union lists that contain union
+# of the elements present in the given lists. Order of elments
+# in output lists doesn’t matter.
+
+# Refer file : practiceQuestions/union_of_2_linked_list.py
+
+#------------ output ----------------
+#-- Start of List 1 elements--                                                                                                                       
+1                                                                                                                                                    
+2                                                                                                                                                    
+3                                                                                                                                                    
+4                                                                                                                                                    
+#-- END of List 1 elements--                                                                                                                         
+#-- Start of List 2 elements--                                                                                                                       
+4                                                                                                                                                    
+5                                                                                                                                                    
+6                                                                                                                                                    
+7                                                                                                                                                    
+#-- END of List 2 elements--                                                                                                                         
+#-- Final union of linkedlist                                                                                                                        
+1                                                                                                                                                    
+2                                                                                                                                                    
+3                                                                                                                                                    
+4                                                                                                                                                    
+5                                                                                                                                                    
+6                                                                                                                                                    
+7                                                                                                                                                    
+#-- End of union of linkedlist
+
+```
+
+# Output dumps
 
 ```sh
 #created empty linked list
