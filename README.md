@@ -28,6 +28,7 @@ Currently practing following
     - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
     - Print in reverse : Ref : hackerrank_linkedlist_practice/print_in_reverse.py
     - Compare linkedlist : Ref : hackerrank_linkedlist_practice/compare-two-linked-lists.py
+    - Super reduced string : 101 Hack April 2016 : Ref : hackerrank_linkedlist_practice/super-reduced-string- 101-Hack-April-2016.py
 
 # Running these files
 How to run these files
