@@ -27,6 +27,7 @@ Currently practing following
     - Insert a node at the head of a linked list : Ref : hackerrank_linkedlist_practice/insert-a-node-at-the-head-of-a-linked-list.py
     - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
     - Print in reverse : Ref : hackerrank_linkedlist_practice/print_in_reverse.py
+    - Compare linkedlist : Ref : hackerrank_linkedlist_practice/compare-two-linked-lists.py
 
 # Running these files
 How to run these files
