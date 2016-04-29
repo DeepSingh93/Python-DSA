@@ -12,6 +12,7 @@ Currently practing following
     - Delete an element in the begining
     - Delete an element from the end
     - Delete an element from middle
+    - Reverse Single Linekdlist
 
 - Doubly linkedlist using python
     - Insert an element at the end
