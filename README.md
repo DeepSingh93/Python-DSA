@@ -711,4 +711,58 @@ Current node ==> 3 ,Previous Value : 4 ,Next value : 2
 Current node ==> 2 ,Previous Value : 3 ,Next value : 1
 Current node ==> 1 ,Previous Value : 2 ,Next value : Null
 #--- END printing of elements of previous and next values ---
+
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is null, adding first element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#Begin addition of element
+#Creating node object
+#node created
+#Check whether head is null or not
+#Head is not null, appending element
+#Finish addition of element
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 1
+Sample Data 2
+Sample Data 3
+Sample Data 4
+Sample Data 5
+#---- End of printing of linkedlist ----
+#--- Begin Reversal Of Linked List ---
+#node created
+#node created
+#node created
+#node created
+#node created
+#--- End Reversal Of Linked List ---
+#---- Start of printing of linkedlist ----
+#Getting head position
+Sample Data 5
+Sample Data 4
+Sample Data 3
+Sample Data 2
+Sample Data 1
+#---- End of printing of linkedlist ----
 ```
