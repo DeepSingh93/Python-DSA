@@ -11,7 +11,7 @@ Currently practing following
     - Insert an element after an element
     - Delete an element in the begining
     - Delete an element from the end
-    - Delete an elemnet from middle
+    - Delete an element from middle
 
 - Doubly linkedlist using python
     - Insert an element at the end
