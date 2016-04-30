@@ -768,4 +768,121 @@ Sample Data 3
 Sample Data 2
 Sample Data 1
 #---- End of printing of linkedlist ----
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#It's the first element
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Begin Insertion of element using doubly linkedlist
+#Creating node object
+#node created
+#Check whether it's the first element or not
+#Its not the first element
+#Adding element
+#Get the tail and save it in temp var
+#Now update the tail element with previous and next
+#ELEMENT ADDED SUCCESSFULLY
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+2
+3
+4
+5
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Start of deleting elements, deleting element : 15
+#This is not the first element, checking for more elements
+#--- End of deleting elements
+#=== ELEMENT NOT FOUND ===
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+2
+3
+4
+5
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Start of deleting elements, deleting element : 3
+#This is not the first element, checking for more elements
+#Element found, checking if it's last element or not
+#This is the middle element
+#--- End of deleting elements
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+2
+4
+5
+#--- END OF PRINTING OF ELEMENTS ---
+Printing both prev and next values for the current node
+#--- Begin printing of elements of previous and next values ---
+Current node ==> 1 ,Previous Value : Null ,Next value : 2
+Current node ==> 2 ,Previous Value : 1 ,Next value : 4
+Current node ==> 4 ,Previous Value : 2 ,Next value : 5
+Current node ==> 5 ,Previous Value : 4 ,Next value : Null
+#--- END printing of elements of previous and next values ---
+#--- Start of deleting elements, deleting element : 4
+#This is not the first element, checking for more elements
+#Element found, checking if it's last element or not
+#This is the middle element
+#--- End of deleting elements
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+2
+5
+#--- END OF PRINTING OF ELEMENTS ---
+Printing both prev and next values for the current node
+#--- Begin printing of elements of previous and next values ---
+Current node ==> 1 ,Previous Value : Null ,Next value : 2
+Current node ==> 2 ,Previous Value : 1 ,Next value : 5
+Current node ==> 5 ,Previous Value : 2 ,Next value : Null
+#--- END printing of elements of previous and next values ---
+#--- Start of deleting elements, deleting element : 2
+#This is not the first element, checking for more elements
+#Element found, checking if it's last element or not
+#This is the middle element
+#--- End of deleting elements
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+1
+5
+#--- END OF PRINTING OF ELEMENTS ---
+#--- Start of deleting elements, deleting element : 1
+#This is the first element
+#Checking if there are any more elemnts after this
+#There are more than one elements in the list, so removing only the first element
+#--- End of deleting elements
+#Getting temp value of head
+#--- BEGIN PRINTING OF ELEMENTS ---
+5
+#--- END OF PRINTING OF ELEMENTS ---
 ```
