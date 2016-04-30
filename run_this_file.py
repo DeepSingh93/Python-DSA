@@ -102,18 +102,18 @@ import sys;
 # testLinkedList.remove("Sample Data 1")
 # testLinkedList.printLinkedList()
 
-# Program in python to delete an elemnet from middle
-sys.path.append('/home/ubuntu/workspace/linkedlist/ReverseASingleLinkedList/ReverseASingleLinkedListCore');
-from reverse_single_linkedlist import reverse_linkedlist
-testLinkedList = reverse_linkedlist();
-testLinkedList.add("Sample Data 1")
-testLinkedList.add("Sample Data 2")
-testLinkedList.add("Sample Data 3")
-testLinkedList.add("Sample Data 4")
-testLinkedList.add("Sample Data 5")
-testLinkedList.printLinkedList()
-testLinkedList.reverse()
-testLinkedList.printLinkedList()
+# # Program in python to delete an elemnet from middle
+# sys.path.append('/home/ubuntu/workspace/linkedlist/ReverseASingleLinkedList/ReverseASingleLinkedListCore');
+# from reverse_single_linkedlist import reverse_linkedlist
+# testLinkedList = reverse_linkedlist();
+# testLinkedList.add("Sample Data 1")
+# testLinkedList.add("Sample Data 2")
+# testLinkedList.add("Sample Data 3")
+# testLinkedList.add("Sample Data 4")
+# testLinkedList.add("Sample Data 5")
+# testLinkedList.printLinkedList()
+# testLinkedList.reverse()
+# testLinkedList.printLinkedList()
 
 
 # # ---- Important : Comment out all the previous code (above) to run the below code
@@ -168,3 +168,27 @@ testLinkedList.printLinkedList()
 # testLinkedList.printLinkedList()
 # testLinkedList.add("5")
 # testLinkedList.printBothSides()
+
+# Program in python to add element in doubly linkedlist
+sys.path.append('/home/ubuntu/workspace/doublylinkedlist/delete_element_middle_doubly/delete_element_middle_core');
+from delete_element_middle import delete_element_middle_class
+testLinkedList = delete_element_middle_class()
+testLinkedList.add("1")
+testLinkedList.add("2")
+testLinkedList.add("3")
+testLinkedList.add("4")
+testLinkedList.add("5")
+testLinkedList.printLinkedList()
+testLinkedList.delete_element_middle("15")
+testLinkedList.printLinkedList()
+
+testLinkedList.delete_element_middle("3")
+testLinkedList.printLinkedList()
+testLinkedList.printBothSides()
+testLinkedList.delete_element_middle("4")
+testLinkedList.printLinkedList()
+testLinkedList.printBothSides()
+testLinkedList.delete_element_middle("2")
+testLinkedList.printLinkedList()
+testLinkedList.delete_element_middle("1")
+testLinkedList.printLinkedList()
