@@ -16,9 +16,11 @@ Currently practing following
 
 - Doubly linkedlist using python
     - Insert an element at the end
+    - Insert at the begining of the linkedlist
     - Printing reverse linkedlist
     - Reversing the linkedlist using doubly linkedlist
-    - Insert at the begining of the linkedlist
+    - Delete element from middle
+
 
 - Practice Questions
     - Given two Linked Lists, create union lists that contain union of the elements present in the given lists. Order of elments in output lists doesn’t matter.
