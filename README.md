@@ -31,6 +31,7 @@ Currently practing following
     - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
     - Print in reverse : Ref : hackerrank_linkedlist_practice/print_in_reverse.py
     - Compare linkedlist : Ref : hackerrank_linkedlist_practice/compare-two-linked-lists.py
+    - Insert a Node at the Tail of a Linked List : Ref : hackerrank_linkedlist_practice/insert_node_tail.py
     - Super reduced string : 101 Hack April 2016 : Ref : hackerrank_linkedlist_practice/super-reduced-string- 101-Hack-April-2016.py
 
 - Leet Code Practice[https://leetcode.com]
