@@ -1,9 +1,5 @@
 # Data Structures using python
 
-Practice code for python
-
-Currently practing following
-
 - Linkedlist using python
     - Insert an element at the end 
     - Insert an element in the begining
