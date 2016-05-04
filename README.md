@@ -17,6 +17,9 @@
     - Reversing the linkedlist using doubly linkedlist
     - Delete element from middle
 
+- Stack
+    - Push element into stack
+
 
 - Practice Questions
     - Given two Linked Lists, create union lists that contain union of the elements present in the given lists. Order of elments in output lists doesn’t matter.
