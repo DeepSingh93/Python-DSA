@@ -19,6 +19,7 @@
 
 - Stack
     - Push element into stack
+    - Pop element from stack
 
 
 - Practice Questions
