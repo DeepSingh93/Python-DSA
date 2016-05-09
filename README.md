@@ -35,6 +35,7 @@
     - Super reduced string : 101 Hack April 2016 : Ref : hackerrank_linkedlist_practice/super-reduced-string- 101-Hack-April-2016.py
 - Hackerrank Stack Questions [Ref Link : https://www.hackerrank.com/domains/data-structures/stacks/]
     - Maximum Element : Ref : hackerrank_stack_practice/ Maximum_Element.py
+    - Balanced Paranthesis : Ref : hackerrank_stack_practice/ balanced_Parentheses.py
 
 - Leet Code Practice[https://leetcode.com]
     - Two Sum : Ref : leetCodePracticeSubmissions/1.TwoSum.py
