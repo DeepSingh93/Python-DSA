@@ -25,7 +25,7 @@
 - Practice Questions
     - Given two Linked Lists, create union lists that contain union of the elements present in the given lists. Order of elments in output lists doesn’t matter.
 
-- Hackerrank Questions [LinkedList, Ref Link : https://www.hackerrank.com/domains/data-structures/linked-lists/]
+- Hackerrank LinkedList Questions [Ref Link : https://www.hackerrank.com/domains/data-structures/linked-lists/]
     - Print the Elements of a Linked List : Ref : hackerrank_linkedlist_practice/print-the-elements-of-a-linked-list.py
     - Insert a node at the head of a linked list : Ref : hackerrank_linkedlist_practice/insert-a-node-at-the-head-of-a-linked-list.py
     - Delete a Node : Ref : hackerrank_linkedlist_practice/delete-a-node-from-a-linked-list.py
@@ -33,6 +33,8 @@
     - Compare linkedlist : Ref : hackerrank_linkedlist_practice/compare-two-linked-lists.py
     - Insert a Node at the Tail of a Linked List : Ref : hackerrank_linkedlist_practice/insert_node_tail.py
     - Super reduced string : 101 Hack April 2016 : Ref : hackerrank_linkedlist_practice/super-reduced-string- 101-Hack-April-2016.py
+- Hackerrank Stack Questions [Ref Link : https://www.hackerrank.com/domains/data-structures/stacks/]
+    - Maximum Element : Ref : hackerrank_stack_practice/ Maximum_Element.py
 
 - Leet Code Practice[https://leetcode.com]
     - Two Sum : Ref : leetCodePracticeSubmissions/1.TwoSum.py
